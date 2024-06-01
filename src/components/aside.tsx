@@ -1,7 +1,7 @@
 import { Button, Tooltip } from "@nextui-org/react"
 import { Home, Info, PanelLeft, PlusCircle, Settings } from "lucide-react"
 
-export function Aside() {
+export function Sidebar() {
   let activeSidebar = false
   const appNavigations = [
     {
